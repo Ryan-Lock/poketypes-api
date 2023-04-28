@@ -4,6 +4,7 @@ const cors = require('cors');
 const PORT = 8000;
 
 app.use(cors());
+app.use(express.static("public"));
 
 let poketypes = {
     'normal': {
@@ -115,6 +116,7 @@ app.get('/api/:type', (request, response) => {
         response.json(poketypes['no input'])
     }
 })
+
 
 app.listen(process.env.PORT || PORT, () => {
     console.log(`Listening on port ${PORT}.`)
