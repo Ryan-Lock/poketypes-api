@@ -1,6 +1,8 @@
 # Poketypes API
 Basic API with all Pokemon types and what types they are effective against, ineffective against, and have no effect on
 
+Hosted on Cyclic: https://pokemoneffectivenessapi.cyclic.app/
+
 ## Installation
 
 Please feel free to use and modify this as you wish.
